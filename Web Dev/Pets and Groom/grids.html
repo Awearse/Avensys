@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pets and Groom</title>
+    <style>
+        body{
+            background-color: grey;
+            color: #66fcf1;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 20px;
+        }
+        .grid-item{
+            background-color: #1F2833;
+            border: 1px solid white;
+            padding: 40px;
+            text-align: center;
+            font-size: 30px;
+        }
+        #three-col{
+            grid-column: 1/4;
+        }
+        #two-col-left{
+            grid-column: 1/3;
+        }
+        #two-col-right{
+            grid-column: 2/4;
+        }
+        p{
+            text-align: left;
+        }
+        li{
+           text-align: left; 
+        }
+        #footer{
+            text-align: right;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+            <div class="grid-item" id="three-col"><h1>Pets and Groom</h1></div>
+
+            <div class="grid-item">
+                <h2>About Us</h2>
+                <p>At Pet and Groom, we offer the best dog and cat grooming services in Singapore. 
+                    Our services are highly-reviewed by our customers for their care and expertise.
+                </p>
+            </div>
+            <div class="grid-item">
+                <h2>Services</h2>
+                <ul>
+                    <li>Nail Clipping</li>
+                    <li>Ear Cleaning</li>
+                    <li>Shaving</li>
+                    <li>Bathing</li>
+                    <li>Drying</li>
+                    <li>Brushing</li>
+                    <li>Trimming</li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h2>Contact Us</h2>
+                <p>
+                    6385 8492<br><br>
+                    10am to 6pm
+                </p>
+            </div>
+
+            <div class="grid-item" id="three-col">
+                <h2>Benefits of Pet Grooming</h2>
+                
+                <h3>Prevents matting</h3>
+                <p>When your pet sheds its fur, loose hair can get tangled and cause matting. 
+                    This can be harmful to your pet if the excess fur is not brushed away.
+                Additionally, the matted fur can tug on its skin, creating painful patches 
+                that can lead to infection-prone sores. Thus, it is imperative that old and 
+                damaged fur is removed from your pet through proper grooming.</p>
+                
+                <h3>Improves the appearance of your pet</h3>
+                <p>Like humans, animals tend to look and feel better when they are properly 
+                groomed. Regular grooming keeps your pet in the best condition, makes them 
+                appear more radiant, and keeps skin problems at bay.</p>
+                
+                <h3>Ensures the welfare of your pet</h3>
+                <p>Aside from upkeeping the appearance of your furkid, grooming allows its 
+                    skin to breathe, avoiding skin irritation. In addition, it lowers the level
+                     of grease in its coat.
+                This is crucial because excessive amounts of grease can block pores and cause 
+                discomfort.</p>
+            </div>
+
+            <div class="grid-item" id="two-col-left">
+                <h2>Dog Prep</h2>
+                <p>If your adult dog hasn't been to the groomer before, you might not be sure how 
+                    he's going to handle the whole ordeal. Spend some time with your dog before the 
+                    visit to help your dog know what to expect..
+
+                    Adult dogs can be acclimated to the sensory overload of a groomer's shop if you 
+                    start gradually and expose them to the items, smells, and sounds they will 
+                    encounter during their session. Use this same method to get puppies used to loud 
+                    grooming equipment.
+                    </p>
+            </div>
+            <div class="grid-item">
+                <img src="dog.jpg" alt="dog" width="230" height="200">
+            </div>
+
+            <div class="grid-item">
+                <img src="cat.jpg" alt="cat" width="230" height="200"> 
+            </div>
+            <div class="grid-item" id="two-col-right">
+                <h2>Cat Prep</h2>
+                <p>On the day of the appointment when you tries to put the cat in the carrier, 
+                    you usually face a lot of difficulties. This happens because cats do not 
+                    like to be placed in a confined area and are stressed while going out as it 
+                    is used to be at home, its most familiar environment most of the time. You 
+                    should prepare your cat for the carrier by putting the carrier in front of the 
+                    cat a few days before the groomer’s appointment so that cat may sit in the 
+                    carrier often and mark its scent on the carrier while wandering around the house. It will save you a lot of time and also save you from being late.</p>
+            </div>
+
+            <div class="grid-item">
+                Dogs:<br>
+                $40 - $95
+            </div>
+            <div class="grid-item">
+                Cats:<br>
+                $60 - $80
+            </div>
+            <div class="grid-item">
+                Just Bathing:<br> 
+                $18 - $48
+            </div>
+
+            <div class="grid-item" id="three-col">
+                <p id="footer">Copyright &copy 2021 PetsAndGroom Pte Ltd</p>
+            </div>
+    </div>
+</body>
+</html>

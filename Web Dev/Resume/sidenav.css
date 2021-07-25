@@ -1,0 +1,24 @@
+.sidenav{
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    top: 0; /*top and left margin*/
+    left: 0;
+    background-color: #274472;
+    overflow-x: hidden; /*disable horizontal scroll*/
+    padding-top: 20px;
+}
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+.sidenav a:hover{
+    color: orange;
+}
+.content{
+    margin-left: 210px; /*After width of side bar*/
+    padding: 0px 10px;
+}

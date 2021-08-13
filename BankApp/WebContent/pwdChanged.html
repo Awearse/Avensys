@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	form{
+		margin: 25px auto;
+		width: 400px;
+		border-radius: 25px;
+		border: 2px solid black;
+		padding: 40px; 
+		font-size: 30px;
+		font-weight: bold;
+	}
+	input{
+		height: 30px;
+		width: 200px;
+		border-radius: 10px;
+		margin: 0 auto;
+	}
+	input[name=submit]{
+		width: 210px;
+		height: 35px;
+		background-color: cornflowerblue;
+		font-size: 15px;
+		font-weight: bold;
+		display: block;
+		margin: 0 auto;
+	}
+	input[name=submit]:hover{
+		background-color: royalblue;
+	}
+	h5{
+	text-align: center;
+	}
+</style>
+</head>
+<body>
+	<form action="/BankApp/interface.jsp">
+		<h5>Password changed</h5>
+    	<input type="submit" name="submit" value="Back to home" />
+	</form>
+</body>
+</html>
